@@ -11,6 +11,7 @@
 
 [core]
   pager = less -FRSX
+	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -45,3 +46,6 @@
 
 [branch "master"]
   mergeoptions = --no-edit
+[user]
+	email = rhonda.l.coons@gmail.com
+	name = Rhonda Coons Rhonda.l.coons@gmail.com
